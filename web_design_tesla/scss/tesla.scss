@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('Gotham-Medium.woff2') format('woff2'),
+        url('Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gotham Medium';
+}
+
+p,
+span,
+li,
+a {
+    font-family: 'Gotham Book';
+}
+
+
+
+
+.navbar .container-fluid {
+    .navbar-nav .nav-link {
+        color: black;
+        margin-left: 3px;
+        margin-right: 3px;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .logo {
+        width: 100px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+}
+
+
+.nav2 {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+@media only screen and (max-width:990px) {
+    .navbar {
+        background-color: white;
+
+        .container-fluid .logo {
+            width: 100px;
+            position: absolute;
+            top: 20px;
+            left: auto;
+            right: 20px;
+        }
+
+        .nav2 {
+            position: relative;
+            right: auto;
+            top: 0px;
+        }
+    }
+
+    .btn1{
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+
+#slide1 {
+    background-image: url(/img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    .upper {
+        padding-top: 110px;
+
+        h2 {
+            font-size: 41px;
+            margin-bottom: 0px;
+            font-weight: 1000;
+        }
+
+        
+
+        p {
+            font-size: 14px;
+            color: black;
+            font-weight: 100;
+            
+
+            a {
+                color: black;
+            }
+        }
+    }
+
+    .lower {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        
+        .btn1 {
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #171a20;
+            color: white;
+            padding: 10px 40px;
+            margin: 0 8px;
+            border-radius: 30px;
+            font-size: 12px;
+
+        }
+
+        .btn2 {
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.77);
+            color: black;
+            padding: 10px 40px;
+            margin: 0 8px;
+            border-radius: 30px;
+            font-size: 12px;
+        }
+
+        .arrow a {
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+    }
+
+}
+
+
+
+#slide2 {
+    background-image: url(/img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    .upper {
+        padding-top: 110px;
+
+        h2 {
+            font-size: 41px;
+            margin-bottom: 0px;
+            font-weight: 1000;
+        }
+
+        p {
+            font-size: 14px;
+            color: black;
+            font-weight: 100;
+
+            a {
+                color: black;
+            }
+        }
+    }
+
+    .lower {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        
+        .btn1 {
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #171a20;
+            color: white;
+            padding: 10px 40px;
+            margin: 0 8px;
+            border-radius: 30px;
+            font-size: 12px;
+
+        }
+
+        .btn2 {
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.77);
+            color: black;
+            padding: 10px 40px;
+            margin: 0 8px;
+            border-radius: 30px;
+            font-size: 12px;
+        }
+
+        .arrow a {
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+    }
+}
+
+#slide3 {
+    background-image: url(/img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    .upper {
+        padding-top: 110px;
+
+        h2 {
+            font-size: 41px;
+            margin-bottom: 0px;
+            font-weight: 1000;
+        }
+
+       
+
+        p {
+            font-size: 14px;
+            color: black;
+            font-weight: 100;
+
+            a {
+                color: black;
+            }
+        }
+    }
+
+    .lower {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        
+        .btn1 {
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #171a20;
+            color: white;
+            padding: 10px 40px;
+            margin: 0 8px;
+            border-radius: 30px;
+            font-size: 12px;
+
+        }
+
+        .btn2 {
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.77);
+            color: black;
+            padding: 10px 40px;
+            margin: 0 8px;
+            border-radius: 30px;
+            font-size: 12px;
+        }
+
+        .arrow a {
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+    }
+}
+
+.fadeinanimation{
+    animation-name: fadeinanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+}
+
+.lefttocenter{
+    animation-name: lefttocenter;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+}
+
+.righttocenter{
+    animation-name: righttocenter;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+}
+
+.arrow{
+    animation-name: arrow;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out; 
+}
+
+
+.delay-load {
+    opacity: 0;
+}
+
+.delay-load.active {
+    opacity: 1;
+    animation-name: arrow;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.6s;
+}
+
+
+.after-delay-load {
+    opacity: 0;
+}
+
+.after-delay-load.active {
+    opacity: 1;
+    animation-name: arrow;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.6s;
+}
+
+.fp-table {
+    display: inline-block;
+}
+
+.hide-header{
+    opacity: 0;
+}
+
+.hide-header.show{
+    opacity: 1;
+    animation-name: fadeinanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+}
+
+.hide-p{
+    opacity: 0;
+}
+
+.hide-p.show{
+    opacity: 1;
+    animation-name: arrow;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+}
+
+.hide-btn{
+    opacity: 0;
+}
+
+.hide-btn.show{
+    opacity: 1;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+
+.hide-arrow{
+    opacity: 0;
+}
+
+
+.hide-arrow.show{
+    opacity: 1;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.fp-warning, .fp-watermark a{
+    display: none;
+}
+//隱藏頁尾fullpage.js的mark
+
+@keyframes fadeinanimation {
+    from{
+        transform: translateY(30px);
+        opacity: 0%;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes lefttocenter {
+    from{
+        opacity: 0%;
+        transform: translateX(-30px);
+    }
+    to{
+        opacity: 100%;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes righttocenter {
+    from{
+        opacity: 0%;
+        transform: translateX(60px);
+    }
+    to{
+        opacity: 100%;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes arrow {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+
+
